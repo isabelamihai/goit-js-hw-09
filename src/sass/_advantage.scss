@@ -1,0 +1,171 @@
+.section-cups {
+    height: 665px;
+    background-color: rgb(255, 245, 246);
+    margin-top: -20px;
+    // z-index: 0;
+}
+
+.hidden-title {
+    display: flex;
+    top: -500px;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.features-icecream {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0%;
+}
+
+.icecream-panel {
+    gap: 0px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.numberseven,
+.numberone,
+.numbereight {
+    color: var(--red);
+    font-family: var(--titan-family);
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.text-cups1,
+.text-cups2,
+.text-cups3 {
+    font-family: var(--dm-family);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 170%;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+.text-cups1 {
+    width: 274px;
+    // border-right: 115px;
+}
+
+.text-cups2 {
+    width: 280px;
+}
+
+.text-cups3 {
+    width: 280px;
+}
+
+.icecream-icons1 {
+    width: 50px;
+    height: 50px;
+}
+
+.icecream-icons2 {
+    width: 50px;
+    height: 50px;
+}
+
+.icecream-icons3 {
+    width: 44px;
+    height: 50px;
+}
+
+// .icons-cream svg::before {
+//         content: '';
+//         display:flexbox;
+//         background-image: url('/src/images/svg/symbol-defs.svg#icon-svglapte'),('/src/images/svg/symbol-defs.svg#icon-svgapples'),
+//             ('/src/images/svg/symbol-defs.svg#icon-svginima');
+//         background-size: cover;
+//         background-repeat: no-repeat;
+
+//     }
+
+@media screen and (min-width: 768px) {
+
+    /* Stiluri specifice pentru tablete și telefoane mobile */
+    .section-cups {
+        height: 472px;
+    }
+
+    .features-icecream {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .numberseven,
+    .numberone,
+    .numbereight {
+        font-size: 48px;
+    }
+
+    .text-cups1,
+    .text-cups2,
+    .text-cups3 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 174%;
+    }
+
+    .text-cups1 {
+        width: 165px;
+        // border-right: 115px;
+    }
+
+    .text-cups2 {
+        width: 162px;
+    }
+
+    .text-cups3 {
+        width: 195px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* Stiluri specifice pentru ecranele de înaltă definiție */
+    .features-icecream {
+        flex-direction: row;
+        gap: 110px;
+        /* Alte ajustări pentru ecranele de înaltă definiție */
+    }
+
+    .icecream-panel {
+        gap: 40px;
+    }
+
+    .numberseven,
+    .numberone,
+    .numbereight {
+        font-size: 58px;
+    }
+
+    .text-cups1,
+    .text-cups2,
+    .text-cups3 {
+        font-size: 16px;
+        line-height: 176%;
+    }
+
+    .text-cups1 {
+        width: 288px;
+        border-right: 115px;
+    }
+
+    .text-cups2 {
+        width: 317px;
+    }
+
+    .text-cups3 {
+        width: 288px;
+    }
+
+}

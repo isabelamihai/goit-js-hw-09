@@ -1,0 +1,45 @@
+:root {
+    --dm-family: "DM Sans", sans-serif;
+    --titan-family: "Titan One", sans-serif;
+    --red: rgb(212, 20, 67);
+    --white: rgb(255, 255, 255);
+    --pink: rgb(255, 165, 186);
+    --black: rgb(0, 0, 0);
+    --beige: rgb(240, 209, 165);
+    --green: rgb(194, 226, 151);
+    --gray: rgb(144, 126, 130);
+    --background-color: rgb(255, 184, 202);
+    --hover-buttons: rgb(236, 235, 235);
+    --icons-background: rgb(254, 165, 187);
+    --transition-hover: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --transform-scale: scale(1.15);
+    --transform-rotate: rotate(270deg);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: var(--dm-family);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+button:hover {
+    cursor: pointer;
+}

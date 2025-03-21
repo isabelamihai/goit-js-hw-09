@@ -1,0 +1,267 @@
+.how-its-made {
+    background-color: rgb(255, 245, 246);
+    height: 887px;
+}
+
+.how-its-made .container h2 {
+    color: var(--red);
+    font-family: var(--titan-family);
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 38.93px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    padding-top: 16px;
+    margin-top: 0;
+    width: 200px;
+    height: 76px;
+    margin-left: 120px;
+}
+
+.how-its-made span {
+    display: flex;
+    justify-content: center;
+    color: var(--pink);
+    font-family: var(--titan-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.61px;
+    width: 198px;
+    height: 21px;
+    padding-top: 60px;
+    margin-left: 120px;
+    margin-bottom: 15px;
+}
+
+.how-its-made-text {
+    flex-direction: column;
+    display: flex;
+    margin-top: 330px;
+    margin-left: -300px;
+    gap: 18px;
+}
+
+.how-its-made-text p:first-child {
+    color: var(--black);
+    font-family: var(--dm-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19.44px;
+    letter-spacing: 0.04em;
+    width: 220px;
+    height: 111px;
+}
+
+.how-its-made-text p:nth-child(2) {
+    color: var(--gray);
+    font-family: var(--dm-family);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19.44px;
+    letter-spacing: 0.04em;
+    width: 220px;
+    height: 171px;
+}
+
+.read-more-btn {
+    width: 176px;
+    height: 44px;
+    font-family: var(--dm-family);
+    border-radius: 22px;
+    background-color: var(--white);
+    color: var(--red);
+    border-style: none;
+    margin-left: 20px;
+    transition: transform var(--transition-hover);
+}
+
+.read-more-btn svg {
+    width: 4.43px;
+    height: 8px;
+    margin-left: 13.62px;
+    stroke: var(--red);
+}
+
+.read-more-btn:hover {
+    background-color: var(--hover-buttons);
+    transform: var(--transform-scale);
+}
+
+.how-its-made-style {
+    display: flex;
+    background-image: url('/src/images/about/milk-bg-x2-m.png');
+    background-repeat: no-repeat;
+    background-position: 70% 75%;
+    background-size: contain;
+}
+
+.how-pick {
+    margin-left: 16px;
+}
+
+.how-its-made-img {
+    transition: transform var(--transition-hover);
+    width: 280px;
+    height: 279px;
+    margin-left: 40px;
+    margin-top: 32px;
+}
+
+.how-its-made-img:hover {
+    transform: var(--transform-scale);
+}
+
+@media screen and(min-width: 768px) {
+    .how-its-made {
+        height: 576px;
+    }
+
+    .how-its-made span {
+        font-size: 26px;
+        font-weight: 400;
+        line-height: 29.77px;
+        padding-top: 60px;
+        width: 285px;
+        height: 30px;
+        margin-left: 235px;
+        margin-bottom: 16px;
+    }
+
+    .how-its-made .container h2 {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 54.96px;
+        letter-spacing: 0.04em;
+        text-align: center;
+        padding-top: 16px;
+        margin-top: 0;
+        width: 429px;
+        height: 55px;
+        margin-left: 150px;
+    }
+
+    .how-its-made-img {
+        width: 336px;
+        height: 335px;
+        margin-left: 0px;
+    }
+
+    .how-its-made-style {
+        background-image: none;
+    }
+
+    .how-its-made-text {
+        margin-left: 32px;
+        margin-top: 40px;
+
+    }
+
+    .how-its-made-text p:first-child {
+        color: var(--black);
+        font-family: var(--dm-family);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24.36px;
+        letter-spacing: 0.04em;
+        width: 334px;
+        height: 95px;
+    }
+
+    .how-its-made-text p:nth-child(2) {
+        color: var(--gray);
+        font-family: var(--dm-family);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 27.16px;
+        letter-spacing: 0.04em;
+        width: 334px;
+        height: 155px;
+    }
+
+    .read-more-btn {
+        width: 176px;
+        height: 44px;
+        margin-left: -20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .how-its-made {
+        height: 757px;
+    }
+
+    .how-its-made span {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 34.35px;
+        letter-spacing: 0.04em;
+        padding-top: 60px;
+        width: 351px;
+        height: 34px;
+        margin-left: 425px;
+        margin-bottom: 16px;
+    }
+
+    .how-its-made .container h2 {
+        font-size: 58px;
+        font-weight: 400;
+        line-height: 66.41px;
+        letter-spacing: 0.06em;
+        text-align: center;
+        padding-top: 16px;
+        margin-top: 0;
+        width: 534px;
+        height: 66px;
+        margin-left: 330px;
+        margin-top: 16px;
+    }
+
+    .how-its-made-img {
+        width: 501px;
+        height: 501px;
+    }
+
+    .how-its-made-style {
+        display: flex;
+        background-image: url('/src/images/about/milk-bg-d.png');
+        background-repeat: no-repeat;
+    }
+
+    .how-its-made-text p:first-child {
+        color: var(--black);
+        font-family: var(--dm-family);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28.16px;
+        letter-spacing: 0.04em;
+        width: 400px;
+        margin-left: 99px;
+        margin-top: 90px;
+    }
+
+    .how-its-made-text p:nth-child(2) {
+        color: var(--gray);
+        font-family: var(--dm-family);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 27.16px;
+        letter-spacing: 0.04em;
+        width: 401px;
+        margin-left: 99px;
+        margin-top: 32px;
+
+    }
+
+    .how-its-made-text {
+        margin-left: 0px;
+        margin-top: 0px;
+
+    }
+
+    .read-more-btn {
+        width: 176px;
+        height: 44px;
+        margin-left: 99px;
+        margin-top: 40px;
+    }
+}
